@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honorato Santos Advogados</title>
+
+    <!-- Fonte Didot -->
+    <link href="https://fonts.googleapis.com/css2?family=Didot:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #222;
+        }
+        header {
+            background-color: #1C1C1C;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+        }
+        .logo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .logo img {
+            width: 160px;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 5px;
+        }
+        .logo-text {
+            font-family: 'Didot', serif;
+            color: #C5A245;
+            font-size: 1.3em;
+            letter-spacing: 1px;
+        }
+        .justice-icon {
+            position: absolute;
+            right: 25px;
+            top: 5px;
+            font-size: 3em;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                        url('https://images.unsplash.com/photo-1555374018-13a8994ab246') center/cover;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        .hero h2 { font-size: 2.2em; margin-bottom: 10px; }
+        .hero p { font-size: 1.2em; margin-bottom: 20px; }
+        .btn {
+            background-color: #1C1C1C;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+            text-align: center;
+        }
+        .areas div {
+            background: white;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            max-width: 500px;
+            margin: auto;
+        }
+        input, textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #1C1C1C;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        @media (max-width: 600px) {
+            .hero h2 { font-size: 1.5em; }
+            .section { padding: 40px 10px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="justice-icon">⚖️</div>
+        <div class="logo">
+            <!-- NOVO LOGO -->
+            <img src="logo_honorato_santos.png" alt="Logo Honorato Santos Advogados">
+            <div class="logo-text">Honorato Santos Advogados</div>
+        </div>
+        <nav>
+            <a href="#areas">Áreas de Atuação</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Defendendo seus direitos com ética, estratégia e resultados.</h2>
+        <p>Atuamos nas áreas Trabalhista, Previdenciária, Cível, Consumidor e Extrajudicial.</p>
+        <a href="https://wa.me/5571981722937" class="btn">Fale com um advogado agora</a>
+    </section>
+
+    <section id="areas" class="section areas">
+        <h2>Nossas Especialidades</h2>
+        <div>💼 <strong>Direito Trabalhista:</strong> Defesa de empregados e empregadores em questões trabalhistas.</div>
+        <div>👵 <strong>Direito Previdenciário:</strong> Aposentadorias, benefícios e revisões.</div>
+        <div>🏠 <strong>Direito Civil:</strong> Contratos, indenizações e obrigações.</div>
+        <div>🧾 <strong>Direito do Consumidor:</strong> Proteção contra práticas abusivas e fraudes.</div>
+        <div>🖋️ <strong>Extrajudicial:</strong> Consultorias, acordos e regularizações de documentos.</div>
+    </section>
+
+    <section id="sobre" class="section">
+        <h2>Compromisso com a Justiça e com você</h2>
+        <p>Com mais de <strong>5 anos de atuação</strong> nas áreas Cível, Trabalhista, Previdenciária e Consumidor, 
+        construímos nossa trajetória com base na defesa incansável dos direitos dos nossos clientes.</p>
+        <p>Acreditamos que o Direito é uma ferramenta de <strong>justiça e transformação</strong>, 
+        atuando de forma <strong>estratégica, ética e comprometida</strong> em todas as etapas do processo.</p>
+        <p>Mais do que representar causas, <strong>lutamos para que a justiça prevaleça</strong>.</p>
+    </section>
+
+    <section class="section">
+        <h2>Por que escolher o Honorato Santos</h2>
+        <ul style="text-align:left; margin:auto; max-width:400px;">
+            <li>Atendimento ágil e humanizado</li>
+            <li>Transparência em todas as etapas</li>
+            <li>Estratégia individual para cada cliente</li>
+            <li>Resultados concretos e comprovados</li>
+            <li>Consultoria inicial acessível</li>
+        </ul>
+        <a href="https://wa.me/5571981722937" class="btn" style="display:inline-block; margin:20px auto 0;">Agende sua consulta</a>
+    </section>
+
+    <section id="contato" class="section">
+        <h2>Fale Conosco</h2>
+        <form action="https://formsubmit.co/adv.hosantos@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="Nova mensagem do site Honorato Santos Advogados">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+
+            <input type="text" name="Nome" placeholder="Nome completo" required>
+            <input type="tel" name="Telefone" placeholder="Telefone / WhatsApp" required>
+            <input type="email" name="Email" placeholder="E-mail" required>
+            <textarea name="Mensagem" rows="4" placeholder="Mensagem"></textarea>
+            <button type="submit" class="btn">Enviar mensagem</button>
+        </form>
+
+        <p>📞 (71) 98172-2937 | 📧 adv.hosantos@gmail.com</p>
+        <p>📸 Instagram: <a href="https://instagram.com/hosadvogados" target="_blank" style="color:black; font-weight:bold; text-decoration:underline;">@hosadvogados</a></p>
+    </section>
+
+    <footer>
+        <p>Honorato Santos Advogados — O seu direito em boas mãos.</p>
+        <p>© 2025 – Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
